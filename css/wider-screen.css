@@ -1,0 +1,108 @@
+@media (min-width:1000px){
+    #content{
+        display: grid;
+        grid-template-areas: "first second"
+                             "third fourth";
+    }
+    
+    
+    .first-post,
+    .second-post,
+    .third-post,
+    .fourth-post{
+        margin: 10px;
+    }
+    
+    
+    .first-post{
+        grid-area: first;
+        
+    }
+    
+    
+    .second-post{
+        grid-area: second;
+    }
+    
+    
+    .third-post{
+        grid-area: third;
+    }
+    
+    
+    .fourth-post{
+        grid-area: fourth;
+    }
+    
+    
+    .card-header{
+        background:#525353;
+        height: 50px;
+        padding-top: 10px;
+    }
+    
+    
+    .card-article{
+        padding-top: 10px;
+    }
+    
+    
+    .card-button{
+        height: 40px;
+        font-size: 18px;
+        border: nfirst;
+        background: nfirst;
+    }
+    
+    
+    .card-button a{
+        color: white;
+    }
+    
+    
+    /* footer */
+    #foot{
+        background-image: linear-gradient(to bottom,black,rgb(136, 135, 135));
+        height: 100px;
+    }
+    
+    
+    #un-list{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-top: 30px;
+        list-style: nfirst;
+    }
+    
+    /* styling individual social links */
+    .list{
+        margin: 0 10px 15px 5px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 50px;
+        border-radius: 10px;
+        height: 50px;
+    }
+    
+    
+    .facebook{
+        background-image: url(/logos/facebook.png);
+        
+    }
+    
+    
+    .instagram{
+        background-image: url(/logos/instagram.png);
+    }
+    
+    
+    .link{
+        background-image: url(/logos/linkedIn.png);
+    }
+    
+    
+    .twitter{
+        background-image: url(/logos/twitter.png);
+    }
+}

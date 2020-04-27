@@ -1,0 +1,77 @@
+.first-post,
+.second-post,
+.third-post,
+.fourth-post{
+    box-shadow: 10px 10px 20px 5px rgb(150, 148, 148);
+    border-radius: 20px;
+    overflow: hidden;
+    line-height: 1.3em;
+    margin-bottom: 20px;
+}
+
+
+.card-header{
+    background:#525353;
+    height: 50px;
+    padding-top: 10px;
+}
+
+
+.card-article{
+    padding-top: 10px;
+}
+
+
+.card-button{
+    height: 40px;
+    font-size: 18px;
+    border: none;
+    background: none;
+}
+
+
+.card-button a{
+    color: rgb(51, 12, 12);
+}
+
+
+/* footer */
+#foot{
+    background-image: linear-gradient(to bottom,black,rgb(136, 135, 135));
+    height: 100px;
+}
+
+
+#un-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+    list-style: none;
+}
+
+/* styling individual social links */
+.list{
+    margin: 0 10px 15px 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+
+.facebook{
+    background-image: url(/logos/facebook.png);
+    
+}
+
+
+.link{
+    background-image: url(/logos/linkedIn.png);
+}
+
+
+.twitter{
+    background-image: url(/logos/twitter.png);
+}
